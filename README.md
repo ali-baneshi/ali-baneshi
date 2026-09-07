@@ -63,3 +63,9 @@ explicit constraints on computation, memory, and time.
   resource-bounded autonomous agents
 - **Engineering priorities:** Reproducibility, deterministic evaluation,
   explicit system boundaries, fail-closed design, and maintainability
+
+
+  
+## Contact
+
+baneshi712@gmail.com
