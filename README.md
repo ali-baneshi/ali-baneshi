@@ -43,6 +43,10 @@ Local-first CLI for repository scanning and structured code-review automation.
 
 ---
 
-## Links
+## Contact
+
+For inquiries or collaboration, reach out at: **baneshi712@gmail.com**
+
+---
 
 [GitHub](https://github.com/ali-baneshi)
