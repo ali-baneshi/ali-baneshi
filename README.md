@@ -1,51 +1,50 @@
 # Ali Baneshi
 
-Quantitative Researcher | DeFi Infrastructure | Autonomous Systems
+Quantitative Researcher | System Design | Production Architecture
 
 ---
 
-## About
+## Approach
 
-I develop research infrastructure for complex financial systems and autonomous agents. My work focuses on deterministic analysis, reproducible evaluation, and explicit system boundaries.
+I work through a systematic process for each project:
+
+1. **Research & Analysis** — Explore ideas, investigate fundamentals, document findings
+2. **Problem Definition** — Clarify the core problem and what we're solving
+3. **Architecture & Design** — Evaluate architecture patterns, hardware, languages, tradeoffs
+4. **Implementation** — Build production-grade systems using AI agents for rapid iteration
+
+This methodology has guided 3+ years of work across quantitative finance and infrastructure projects.
 
 ---
 
 ## Projects
 
 **phca-v3** — Python  
-Research framework for constrained autonomous agents with memory, prediction, and resource limits.
+Constrained autonomous agent framework with explicit resource limits and reasoning boundaries.
 
 **defi-arbitrage-core** — Python  
-Deterministic DeFi arbitrage analysis across multiple networks with reproducible off-chain evaluation.
+Deterministic DeFi arbitrage analysis with reproducible cross-network evaluation.
 
 **Exchange-Quant** — Python  
-Research infrastructure for aggressor-side trade flow forecasting without order execution.
+Trade flow forecasting research infrastructure without execution or position management.
 
 **DN** — Rust  
-Local-first CLI for repository scanning and structured code-review automation.
+Repository scanning and code review automation for maintainers and CI pipelines.
 
 ---
 
-## Focus Areas
+## Focus
 
-- Autonomous agent design under resource constraints
-- DeFi market analysis and microstructure
-- Reproducible research infrastructure
-- Deterministic system validation
-
----
-
-## Technical Skills
-
-**Languages:** Python, Rust, TypeScript  
-**Domains:** Quantitative Finance, Blockchain, Agent Systems  
-**Approach:** Research-grade code, fail-closed design, reproducibility
+- System architecture and design tradeoffs
+- Production infrastructure for research
+- Constrained optimization problems
+- Deterministic and reproducible systems
 
 ---
 
 ## Contact
 
-For inquiries or collaboration, reach out at: **baneshi712@gmail.com**
+baneshi712@gmail.com
 
 ---
 
