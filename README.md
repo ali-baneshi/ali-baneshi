@@ -1,16 +1,48 @@
-## Hi there 👋
+# Ali Baneshi
 
-<!--
-**ali-baneshi/ali-baneshi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Quantitative Researcher | DeFi Infrastructure | Autonomous Systems
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About
+
+I develop research infrastructure for complex financial systems and autonomous agents. My work focuses on deterministic analysis, reproducible evaluation, and explicit system boundaries.
+
+---
+
+## Projects
+
+**phca-v3** — Python  
+Research framework for constrained autonomous agents with memory, prediction, and resource limits.
+
+**defi-arbitrage-core** — Python  
+Deterministic DeFi arbitrage analysis across multiple networks with reproducible off-chain evaluation.
+
+**Exchange-Quant** — Python  
+Research infrastructure for aggressor-side trade flow forecasting without order execution.
+
+**DN** — Rust  
+Local-first CLI for repository scanning and structured code-review automation.
+
+---
+
+## Focus Areas
+
+- Autonomous agent design under resource constraints
+- DeFi market analysis and microstructure
+- Reproducible research infrastructure
+- Deterministic system validation
+
+---
+
+## Technical Skills
+
+**Languages:** Python, Rust, TypeScript  
+**Domains:** Quantitative Finance, Blockchain, Agent Systems  
+**Approach:** Research-grade code, fail-closed design, reproducibility
+
+---
+
+## Links
+
+[GitHub](https://github.com/ali-baneshi)
