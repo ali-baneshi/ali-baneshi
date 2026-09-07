@@ -1,52 +1,65 @@
-# Ali Baneshi
+Independent Researcher · Quantitative Systems & Architecture
 
-**Quantitative Researcher & Systems Architect**  
-Research-driven design from first principles to production implementation.
+I research and build systems at the intersection of quantitative finance,
+autonomous agents, and developer tooling.
 
----
+My work connects first-principles reasoning with practical engineering:
+understanding-principles reasoning with practical engineering:
+understanding the problem, making validating implementations against their intended scope.
 
-## Methodology
+## Research & Engineering Approach
 
-I approach complex problems through rigorous, structured methodology:
+### Research & Discovery
+Study domain fundamentals, examine existing approaches, and distinguish
+established evidence from working assumptions. Translate findings into
+testable questions and concrete design requirements.
 
-**Research & Discovery** — Investigate domain fundamentals, validate assumptions, and synthesize findings into actionable insights.
+### Problem Formulation
+Define the problem before choosing the solution. Establish scope, constraints,
+success criteria, and non-goals. Identify the uncertainties that matter
+and the evidence needed to resolve them.
 
-**Problem Formulation** — Define scope precisely. Identify constraints, unknowns, and the core challenge requiring solution.
+### Systems Architecture
+Design components around explicit responsibilities, interfaces, and failure
+boundaries. Evaluate algorithms, technology choices, and resource requirements
+against correctness, complexity, performance, and maintainability.
 
-**Architecture Design** — Evaluate structural patterns, technology choices, hardware requirements, and system tradeoffs. Select approaches grounded in theoretical understanding and practical requirements.
+### Implementation & Validation
+Translate architectural decisions into testable software. Use modern tooling
+and AI-assisted workflows, supported by code review, explicit validation,
+and reproducible evaluation. Treat reliability and scalability as properties
+to demonstrate—not assumptions to make.
 
-**Production Implementation** — Develop deterministic, reproducible systems with modern tooling and AI-assisted workflows for reliability and scalability.
+This process is iterative: implementation tests the architecture,
+evaluation challenges the assumptions, and new evidence informs the next design.
 
-This iterative process, refined over 3+ years, ensures systems are theoretically sound, architecturally coherent, and production-ready.
+## Selected Projects
 
----
+### defi-arbitrage-core · Python
+Research infrastructure for multi-network DeFi arbitrage analysis.
+Focuses on market modeling, deterministic validation, and reproducible
+off-chain opportunity evaluation, with an explicit boundary between
+analysis and live execution.
 
-## Projects
+### Exchange-Quant · Python
+Market microstructure research infrastructure for forecasting future
+aggressor-side trade flow. Keeps forecasting research separate from
+order execution and position management; predictive performance alone
+does not establish trading profitability.
 
-**phca-v3** — Python  
-Framework for bounded autonomous agents operating under explicit constraints on computation, memory, and time. Models perception, prediction, memory, and decision-making under resource scarcity.
+### DN · Rust
+A local-first CLI for repository inspection and structured code-review
+findings. Designed to support repeatable analysis for maintainers,
+reviewers, and CI workflows.
 
-**defi-arbitrage-core** — Python  
-Research infrastructure for cross-network DeFi arbitrage analysis with deterministic evaluation and reproducible results. Designed for scientific rigor, not execution.
+### phca-v3, prediction, memory, and decision-making under
+explicit constraints on computation,ores perception, prediction, memory, and decision-making under
+explicit constraints on computation, memory, and time.
 
-**Exchange-Quant** — Python  
-Market microstructure research platform for aggressor-side trade flow forecasting. Isolates research function from operational trading systems.
+## Technical Focus
 
-**DN** — Rust  
-CLI tool for deterministic repository analysis and structured code review automation. Enables repeatable findings across environments and integration with CI/CD pipelines.
-
----
-
-## Technical Foundation
-
-**Primary Languages:** Python, Rust  
-**Research Domains:** Quantitative Finance, Autonomous Systems, Market Microstructure  
-**Architecture Philosophy:** Reproducibility, determinism, explicit boundaries, fail-closed design
-
----
-
-## Contact
-
-baneshi712@gmail.com
-
-[GitHub](https://github.com/ali-baneshi)
+- **Languages:** Python, Rust
+- **Research areas:** Quantitative finance, market microstructure,
+  resource-bounded autonomous agents
+- **Engineering priorities:** Reproducibility, deterministic evaluation,
+  explicit system boundaries, fail-closed design, and maintainability
