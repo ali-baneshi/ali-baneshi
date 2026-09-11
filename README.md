@@ -1,71 +1,67 @@
-Independent Researcher · Quantitative Systems & Architecture
+# Ali Baneshi
 
-I research and build systems at the intersection of quantitative finance,
-autonomous agents, and developer tooling.
+**Independent Researcher · Quantitative Systems & Architecture**
 
-My work connects first-principles reasoning with practical engineering:
-understanding-principles reasoning with practical engineering:
-understanding the problem, making validating implementations against their intended scope.
+I’m an independent researcher and self-taught R&D engineer working on quantitative finance, autonomous agents, and developer tools.
 
-## Research & Engineering Approach
+Most of my work starts before the code. I first try to understand the problem, define what the system is supposed to do, and identify what can actually be measured. From there, I turn the ideas into practical implementations and test them against their intended scope.
 
-### Research & Discovery
-Study domain fundamentals, examine existing approaches, and distinguish
-established evidence from working assumptions. Translate findings into
-testable questions and concrete design requirements.
+I’m particularly interested in systems where correctness, limitations, and failure cases matter as much as the final result.
 
-### Problem Formulation
-Define the problem before choosing the solution. Establish scope, constraints,
-success criteria, and non-goals. Identify the uncertainties that matter
-and the evidence needed to resolve them.
+## How I Work
 
-### Systems Architecture
-Design components around explicit responsibilities, interfaces, and failure
-boundaries. Evaluate algorithms, technology choices, and resource requirements
-against correctness, complexity, performance, and maintainability.
+### Research
 
-### Implementation & Validation
-Translate architectural decisions into testable software. Use modern tooling
-and AI-assisted workflows, supported by code review, explicit validation,
-and reproducible evaluation. Treat reliability and scalability as properties
-to demonstrate—not assumptions to make.
+I start by learning the fundamentals of the problem and looking at how others have approached it. I try to separate established knowledge from assumptions, then turn uncertain parts into questions that can be tested.
 
-This process is iterative: implementation tests the architecture,
-evaluation challenges the assumptions, and new evidence informs the next design.
+### Problem Definition
+
+I define the problem before choosing a solution. This includes clarifying the scope, constraints, success criteria, and non-goals. A clear definition is often more valuable than an early implementation.
+
+### System Design
+
+I design systems around clear responsibilities, interfaces, and failure boundaries. When choosing an algorithm or technology, I consider correctness, complexity, performance, resource usage, and maintainability—not just whether it works in a simple example.
+
+### Implementation and Validation
+
+I turn design decisions into small, testable pieces of software. I use modern development tools when they are useful, when they are useful, but generated code is never treated as proof of correctness.
+
+Testing, code review, deterministic checks, and reproducible experiments are used to find out whether an implementation behaves as intended.
+
+The process is iterative. Implementation reveals weaknesses in the design, evaluation challenges the original assumptions, and the resulting evidence shapes the next version.
 
 ## Selected Projects
 
 ### defi-arbitrage-core · Python
-Research infrastructure for multi-network DeFi arbitrage analysis.
-Focuses on market modeling, deterministic validation, and reproducible
-off-chain opportunity evaluation, with an explicit boundary between
-analysis and live execution.
+
+Research infrastructure for analyzing DeFi arbitrage opportunities across multiple networks.
+
+The project focuses on market modeling, route analysis, deterministic validation, and reproducible off-chain evaluation. Research and live execution are kept separate so that a simulated opportunity is not mistaken for a validated trading system.
 
 ### Exchange-Quant · Python
-Market microstructure research infrastructure for forecasting future
-aggressor-side trade flow. Keeps forecasting research separate from
-order execution and position management; predictive performance alone
-does not establish trading profitability.
+
+A market microstructure research project focused on forecasting future aggressor-side trade flow.
+
+The forecasting work is kept separate from order execution and position management. Strong predictive performance can be useful, but it does not by itself prove that a trading strategy is profitable.
 
 ### DN · Rust
-A local-first CLI for repository inspection and structured code-review
-findings. Designed to support repeatable analysis for maintainers,
-reviewers, and CI workflows.
 
-### phca-v3, prediction, memory, and decision-making under
-explicit constraints on computation,ores perception, prediction, memory, and decision-making under
-explicit constraints on computation, memory, and time.
+A local-first command-line tool for inspecting repositories and producing structured code-review findings.
+
+It is intended to support repeatable analysis for developers, maintainers, reviewers, and CI workflows.
+
+### phca-v3
+
+An experimental architecture for perception, prediction, memory, and decision-making under explicit limits on computation, memory, and time.
+
+The project explores how an agent can make decisions when its resources are limited and its internal state must be managed deliberately.
 
 ## Technical Focus
 
 - **Languages:** Python, Rust
-- **Research areas:** Quantitative finance, market microstructure,
-  resource-bounded autonomous agents
-- **Engineering priorities:** Reproducibility, deterministic evaluation,
-  explicit system boundaries, fail-closed design, and maintainability
+- **Research areas:** Quantitative finance, market microstructure, resource-bounded autonomous agents
+- **Engineering priorities:** Reproducibility, deterministic evaluation, clear system boundaries, fail-closed behavior, and maintainability
 
-
-  
 ## Contact
 
-baneshi712@gmail.com
+[baneshi712@gmail.com](mailto:baneshi712@gmail.com)
