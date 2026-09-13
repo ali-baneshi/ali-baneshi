@@ -38,23 +38,11 @@ Research infrastructure for analyzing DeFi arbitrage opportunities across multip
 
 The project focuses on market modeling, route analysis, deterministic validation, and reproducible off-chain evaluation. Research and live execution are kept separate so that a simulated opportunity is not mistaken for a validated trading system.
 
-### Exchange-Quant · Python
-
-A market microstructure research project focused on forecasting future aggressor-side trade flow.
-
-The forecasting work is kept separate from order execution and position management. Strong predictive performance can be useful, but it does not by itself prove that a trading strategy is profitable.
-
 ### DN · Rust
 
 A local-first command-line tool for inspecting repositories and producing structured code-review findings.
 
 It is intended to support repeatable analysis for developers, maintainers, reviewers, and CI workflows.
-
-### phca-v3
-
-An experimental architecture for perception, prediction, memory, and decision-making under explicit limits on computation, memory, and time.
-
-The project explores how an agent can make decisions when its resources are limited and its internal state must be managed deliberately.
 
 ## Technical Focus
 
